@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# MLflow generated files
+mlartifacts/
+mlflow.db
+
+# Temporary files
+*.log
+.DS_Store

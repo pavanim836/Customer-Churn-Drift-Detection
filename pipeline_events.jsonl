@@ -1,0 +1,89 @@
+{"time": "2026-10-28T19:50:45", "event": "monitor_started", "message": "Automatic monitoring started."}
+{"time": "2026-10-28T19:50:45", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-28T19:50:45", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-28T19:51:01", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-28T19:51:01", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-28T19:51:06", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0158) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.6245847176079734, "candidate_f1": 0.608793686583991, "f1_improvement": -0.015791031023982383}
+{"time": "2026-10-28T19:51:07", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-28T19:54:07", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-28T19:54:08", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-28T19:54:15", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-28T19:54:15", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-28T19:54:20", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0074) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.6245847176079734, "candidate_f1": 0.6171428571428571, "f1_improvement": -0.007441860465116301}
+{"time": "2026-10-28T19:54:21", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-28T20:17:21", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-28T20:17:21", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-28T20:17:33", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-28T20:17:34", "event": "drift_detection", "drift_detected": false, "drifted_features": []}
+{"time": "2026-10-28T20:17:38", "event": "pipeline_decision", "decision": "keep_current_no_drift", "reason": "No data drift detected. The existing model remains in service.", "current_f1": 0.6245847176079734}
+{"time": "2026-10-28T20:17:38", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-28T22:09:59", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-28T22:09:59", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-28T22:10:10", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-28T22:10:10", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-28T22:10:13", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0017) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.6245847176079734, "candidate_f1": 0.622876557191393, "f1_improvement": -0.0017081604165803954}
+{"time": "2026-10-28T22:10:13", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-28T22:26:59", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-28T22:26:59", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-28T22:27:04", "event": "pipeline_decision", "decision": "candidate_promoted", "reason": "Candidate F1-score improved by 0.0160, meeting the 0.01 threshold.", "current_f1": 0.6069246435845214, "candidate_f1": 0.622876557191393, "f1_improvement": 0.01595191360687165}
+{"time": "2026-10-28T23:16:43", "event": "monitor_stopped", "message": "Monitoring stopped by the user."}
+{"time": "2026-10-29T11:50:05", "event": "monitor_started", "message": "Automatic monitoring started."}
+{"time": "2026-10-29T11:50:05", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T11:50:05", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T11:50:15", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T11:50:15", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-29T11:50:17", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (0.0000) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.622876557191393, "candidate_f1": 0.622876557191393, "f1_improvement": 0.0}
+{"time": "2026-10-29T11:50:18", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T11:53:18", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T11:53:18", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T11:53:24", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T11:53:25", "event": "drift_detection", "drift_detected": false, "drifted_features": []}
+{"time": "2026-10-29T11:53:27", "event": "pipeline_decision", "decision": "keep_current_no_drift", "reason": "No data drift detected. The existing model remains in service.", "current_f1": 0.622876557191393}
+{"time": "2026-10-29T11:53:28", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T11:55:28", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T11:55:28", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T11:55:37", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T11:55:37", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-29T11:55:38", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (0.0006) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.622876557191393, "candidate_f1": 0.6234906695938529, "f1_improvement": 0.0006141124024598987}
+{"time": "2026-10-29T11:55:39", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T13:57:54", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T13:57:54", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T13:58:13", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T13:58:13", "event": "drift_detection", "drift_detected": false, "drifted_features": []}
+{"time": "2026-10-29T13:58:15", "event": "pipeline_decision", "decision": "keep_current_no_drift", "reason": "No data drift detected. The existing model remains in service.", "current_f1": 0.622876557191393}
+{"time": "2026-10-29T13:58:15", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T13:59:15", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T13:59:15", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T13:59:24", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T13:59:24", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-29T13:59:26", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0126) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.622876557191393, "candidate_f1": 0.6102449888641426, "f1_improvement": -0.012631568327250431}
+{"time": "2026-10-29T13:59:27", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T14:03:19", "event": "monitor_stopped", "message": "Monitoring stopped by the user."}
+{"time": "2026-10-29T15:28:41", "event": "monitor_started", "message": "Automatic monitoring started."}
+{"time": "2026-10-29T15:28:41", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T15:28:41", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T15:28:51", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T15:28:51", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-29T15:28:53", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0126) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.622876557191393, "candidate_f1": 0.6102449888641426, "f1_improvement": -0.012631568327250431}
+{"time": "2026-10-29T15:28:54", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T15:32:54", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T15:32:54", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T15:32:58", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T15:32:58", "event": "drift_detection", "drift_detected": false, "drifted_features": []}
+{"time": "2026-10-29T15:32:59", "event": "pipeline_decision", "decision": "keep_current_no_drift", "reason": "No data drift detected. The existing model remains in service.", "current_f1": 0.622876557191393}
+{"time": "2026-10-29T15:33:00", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T15:37:00", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T15:37:00", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T15:37:08", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T15:37:08", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-29T15:37:13", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0133) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.622876557191393, "candidate_f1": 0.6096131301289566, "f1_improvement": -0.01326342706243644}
+{"time": "2026-10-29T15:37:14", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-29T15:46:33", "event": "monitor_stopped", "message": "Monitoring stopped by the user."}
+{"time": "2026-10-29T16:46:50", "event": "monitor_started", "message": "Automatic monitoring started."}
+{"time": "2026-10-29T16:46:50", "event": "incoming_data_changed", "message": "A new incoming data file was detected."}
+{"time": "2026-10-29T16:46:50", "event": "pipeline_started", "message": "Incoming data changed; pipeline started."}
+{"time": "2026-10-29T16:47:01", "event": "pipeline_started", "message": "Retraining pipeline started."}
+{"time": "2026-10-29T16:47:01", "event": "drift_detection", "drift_detected": true, "drifted_features": ["tenure", "MonthlyCharges"]}
+{"time": "2026-10-29T16:47:03", "event": "pipeline_decision", "decision": "candidate_rejected", "reason": "Candidate F1-score improvement (-0.0133) did not meet the 0.01 threshold. The existing model is retained.", "current_f1": 0.622876557191393, "candidate_f1": 0.6096131301289566, "f1_improvement": -0.01326342706243644}
+{"time": "2026-10-29T16:47:04", "event": "pipeline_completed", "message": "Pipeline finished successfully."}
+{"time": "2026-10-30T16:10:15", "event": "monitor_stopped", "message": "Monitoring stopped by the user."}

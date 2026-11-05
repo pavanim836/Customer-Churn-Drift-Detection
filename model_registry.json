@@ -1,0 +1,16 @@
+[
+  {
+    "version": 1,
+    "file": "v1_baseline.joblib",
+    "created": "2026-10-28 10:00:31",
+    "trigger": "Initial baseline model",
+    "metrics": {
+      "accuracy": 0.7590618336886994,
+      "precision": 0.5330812854442344,
+      "recall": 0.7540106951871658,
+      "f1_score": 0.6245847176079734,
+      "roc_auc": 0.8338997572099331
+    },
+    "active": true
+  }
+]

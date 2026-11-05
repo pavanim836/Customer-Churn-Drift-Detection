@@ -1,0 +1,17 @@
+{
+    "monitor_status": "Stopped",
+    "error": null,
+    "updated_at": "2026-10-30T16:10:15",
+    "return_code": 0,
+    "last_run_at": "2026-10-29T16:47:01",
+    "finished_at": "2026-10-29T16:47:04",
+    "decision": "candidate_rejected",
+    "drift_detected": true,
+    "drifted_features": [
+        "tenure",
+        "MonthlyCharges"
+    ],
+    "current_f1": 0.622876557191393,
+    "candidate_f1": 0.6096131301289566,
+    "reason": "Candidate F1-score improvement (-0.0133) did not meet the 0.01 threshold. The existing model is retained."
+}
